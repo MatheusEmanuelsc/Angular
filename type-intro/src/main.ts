@@ -8,13 +8,11 @@ import './style.css';
 // import './Topicos/07-Desestruturacao-argumentos';
 // import './Topicos/08-Modulos';
 // import './Topicos/09-Classes';
-import './Topicos/10-Genericos';
+// import './Topicos/10-Genericos';
 
 
 
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  Hello World !!!!
-`
+
 
 
