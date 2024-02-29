@@ -6,7 +6,9 @@ import './style.css';
 // import './Topicos/05-Desestruturacao-objetos';
 // import './Topicos/06-Desestruturacao-vetores';
 // import './Topicos/07-Desestruturacao-argumentos';
-import './Topicos/08-Modulos'
+// import './Topicos/08-Modulos';
+// import './Topicos/09-Classes';
+import './Topicos/10-Genericos';
 
 
 
