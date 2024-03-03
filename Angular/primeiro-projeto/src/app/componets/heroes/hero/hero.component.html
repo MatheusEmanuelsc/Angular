@@ -1,1 +1,28 @@
-<p>hero works!</p>
+<h1>Seilar</h1>
+
+<dl>
+  <!-- Exemplo de  acasso a propriedade -->
+  <dt>Nome:</dt>
+  <dd>{{nome}}</dd>
+
+  <dt>Idade:</dt>
+  <dd>{{idade}}</dd>
+
+  <!-- Como acessar um metodo -->
+  <!-- esse precisou usar parenteses pq não utilizou a palavra get -->
+  <dt>Metodo:</dt>
+  <dd>{{getHeroDesc()}}</dd>
+
+  <!-- outro metodo -->
+  <!-- nesse não precisou dos paratenses pois utilizou na propriedade a palavra get -->
+  <dt>Capitalizado:</dt>
+  <dd>{{capitalizeName}}</dd>
+</dl>
+
+
+<button (click)="mudaNome()" class="btn btn-danger mx-2">
+  trocar nome
+</button>
+<button (click)="mudaIdade()" class="btn btn-danger">
+  trocar idade
+</button>
