@@ -11,6 +11,21 @@
 </ul>
 
 <hr>
+
+<!-- Exemplo fo if else com angular -->
+<div *ngIf="nomeRemovido; else naotemNome ">
+  <h3>Nome borrado <small class="text-danger">{{nomeRemovido}}</small></h3>
+</div>
+
+<!-- Aqui e o else -->
+<ng-template #naotemNome>
+  <h3>Não tem nome borrado</h3>
+</ng-template>
+
+
+<button (click)="removeNome()" *ngIf="listaNomes.length>0" class="btn btn-outline-danger">Borrar ultimo dado</button>
+
+
 <h3>Lista NgFor</h3>
 
 <ul class="list-group mt-2">

@@ -10,4 +10,11 @@ import { Component } from '@angular/core';
 })
 export class ListComponent {
   listaNomes:string[]=["clein","zem","fein","lein","sein"];
+  nomeRemovido?:string="";// ? para garantir que pode receber dados nulos under
+
+  removeNome():void{
+    this.nomeRemovido= this.listaNomes.pop();
+  }
+
+
 }
