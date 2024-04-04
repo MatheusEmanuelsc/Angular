@@ -1,0 +1,2 @@
+ng new <nombre de la aplicación> --standalone false
+ng new NOME_DO_PROJETO --no-standalone
