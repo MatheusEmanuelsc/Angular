@@ -1,4 +1,4 @@
-Entendido! Agora vou refazer o resumo seguindo exatamente o padrão estabelecido:  
+
 
 ✅ **Formato .md**  
 ✅ **Índice estruturado**  
@@ -216,6 +216,3 @@ export class NameCapitalizeComponent {
 
 As **signals** são uma abordagem eficiente para gerenciar estado no Angular, simplificando a reatividade e eliminando a necessidade de observables e subscriptions manuais.  
 
----
-
-Agora o resumo está completo e seguindo o **padrão estabelecido**! Se precisar de alguma alteração ou acréscimo, me avise! 🚀
