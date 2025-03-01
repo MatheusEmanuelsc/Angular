@@ -58,7 +58,7 @@ export class Usuario {
 ```
 No componente:
 ```typescript
-usuario = signal(new Usuario('João', 25faç)); // Signal armazenando um objeto do tipo Usuario
+usuario = signal(new Usuario('João', 25)); // Signal armazenando um objeto do tipo Usuario
 ```
 No template:
 ```html
