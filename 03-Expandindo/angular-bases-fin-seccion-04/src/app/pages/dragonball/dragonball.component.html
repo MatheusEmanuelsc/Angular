@@ -1,1 +1,35 @@
-<p>dragonball works!</p>
+<h2> Dragonball Page</h2>
+
+<hr/>
+
+<section class="row">
+  <div class="col-12 col-sm-6">
+    <h3>Agregar: {{name()}} </h3>
+    <input type="text" class="form-control" placeholder="Nombre"/>
+    <input type="number" class="form-control mt-2" placeholder="Poder"/>
+    <button class="btn btn-primary mt-2">
+      Agregar
+    </button>
+  </div>
+  <div class="col-12 col-sm-6">
+    <h3>listado</h3>
+    <ol>
+      @for (char of char(); track char.id) {
+        @if (char.power > 1000) {
+          <li>
+          <span>{{char.name}}</span>
+          <strong
+          [class.text-danger]="char.power>9000"
+          [class.text-primary]="char.power<9000"
+          >
+            <span>{{char.power}}</span>
+          </strong>
+        </li>
+        }@else {
+          <li><strong>Nada para ver</strong></li>
+        }
+      }
+
+    </ol>
+  </div>
+</section>
