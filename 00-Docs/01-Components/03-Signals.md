@@ -1,15 +1,6 @@
 
 
-✅ **Formato .md**  
-✅ **Índice estruturado**  
-✅ **Comentários dentro do código explicando cada parte**  
-✅ **Resumo fora do código**  
-✅ **Lista com diferentes métodos e explicações curtas**  
-✅ **Exemplos adicionais para melhor compreensão**  
 
-Abaixo está o resumo corrigido:  
-
----
 
 ## **Signals no Angular**  
 
